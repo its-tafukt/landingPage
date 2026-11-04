@@ -244,6 +244,10 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+.membership .section_label{
+    color: #ff6b00;
+}
+
 .pricing_cards {
     display: flex;
     justify-content: space-between;
@@ -324,11 +328,9 @@ nav a:hover {
 
 
 
-
-
-
 .contact > .section_label {
     text-align: center;
+    color: #ff6b00;
 }
 
 .contact > .contact_text {
@@ -390,6 +392,53 @@ nav a:hover {
     color: #111;
 }
 
+
+footer {
+    background-color: #101417;
+    color: white;
+    padding: 35px 7% 15px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.footer_logo h2 {
+    color: #ff6b00;
+    margin-bottom: 10px;
+}
+
+.footer_logo p {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.footer_links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer_links a {
+    font-size: 13px;
+}
+
+.footer_links a:hover {
+    color: #ff6b00;
+}
+
+.footer_bottom {
+    border-top: 1px solid #303538;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer_bottom p {
+    font-size: 12px;
+    color: #aaa;
+}
 
 @media (max-width: 768px) {
 
