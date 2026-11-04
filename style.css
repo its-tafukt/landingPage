@@ -221,7 +221,7 @@ nav a:hover {
 
 .class_photo p {
     font-size: 11px;
-    color: #666;
+    color: #313030;
     padding: 0 10px 10px;
 }
 
@@ -230,3 +230,238 @@ nav a:hover {
     padding: 0 10px 10px;
     font-size: 18px;
 }
+
+
+.membership {
+    background-color: #101417;
+    color: white;
+    padding: 45px 7%;
+}
+
+.membership_text {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.pricing_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.pricing_card {
+    width: 33.33%;
+    border: 1px solid #303538;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+
+.pricing_card h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.price span {
+    font-size: 11px;
+    font-weight: normal;
+    color: #aaa;
+}
+
+.pricing_card ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.pricing_card li {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+.pricing_button {
+    display: block;
+    text-align: center;
+    border: 1px solid #777;
+    border-radius: 20px;
+    padding: 9px;
+    font-size: 12px;
+}
+
+.popular {
+    border: 1px solid #ff6b00;
+}
+
+.popular .pricing_button {
+    background-color: #ff6b00;
+    color: #111;
+    border-color: #ff6b00;
+}
+
+.popular_label {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background-color: #ff6b00;
+    color: #111;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: white;
+    padding: 60px 7%;
+}
+
+
+
+
+
+
+
+.contact > .section_label {
+    text-align: center;
+}
+
+.contact > .contact_text {
+    text-align: center;
+}
+
+.contact > h2{
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact_text {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.contact_container {
+    display: flex;
+    gap: 40px;
+}
+
+.contact_info,
+.contact_form {
+    width: 50%;
+}
+
+.contact_info h3 {
+    margin-bottom: 20px;
+}
+
+.contact_info p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.contact_form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact_form button {
+    background-color: #ff6b00;
+    color: #111;
+}
+
+
+@media (max-width: 768px) {
+
+     header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav li {
+        font-size: 13px;
+    }
+
+
+
+    .classes_container {
+        flex-wrap: wrap;
+    }
+
+    .class_photo {
+        width: 47%;
+    }
+
+    .pricing_cards {
+        flex-direction: column;
+    }
+
+    .pricing_card {
+        width: 100%;
+    }
+
+    .classes_header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+
+     header {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav li {
+        font-size: 12px;
+    }
+
+    header button {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+
+    .class_photo {
+        width: 100%;
+    }
+
+}
+
+
