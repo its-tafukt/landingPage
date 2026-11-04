@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -21,8 +22,7 @@
         <a href="#"><button>Join Now</button></a>
     </header>
     <main class="home">
-        <img src="img/hero1.jpg" alt="hitting exercise">
-        <p><b>STRONGER / HEALTHIER / HAPPIER</b></p>
+        <p class="keys"><b>STRONGER / HEALTHIER / HAPPIER</b></p>
         <h1>Your Goals. <br> <span>Our Mission.</span></h1>
         <p>At Nexus Fitness, we help you build a stronger body, a healthier mind and a better you. Whether you're just starting or leveling up, you are in the right place</p>
         <a href="#"><button>Join Now</button></a>
@@ -32,7 +32,7 @@
     
         <div class="about_text">
 
-            <p><b>ABOUT NEXUS</b></p>
+            <p class="keys"><b>ABOUT NEXUS</b></p>
             <h2>More Than A Gym <br> A LifStyle</h2>
             <p>We're not just a fitness center. We're a community of people who support, motivate, and push each other to reach their goals. with the right training, environment, and mindset, you can achieve more than you think</p>
             <ul>
@@ -47,43 +47,103 @@
             <img src="img/about.jpg" alt="">
         </div>
     </section>
-    <section class="classes">
-        <p>OUR CLASSES</p>
-        <h2>The Right Class for You</h2>
-        <p>From strength training to Yoga, we offer a variety of classes to match your goals and fitness level</p>
-        <div class="class_photo">
-            <img src="img/strength1.jpg" alt="strength class">
-            <h3>Strength Training</h3>
-            <p>Build muscle, Gain power</p>
+    <section class="classes" id="classes">
 
+        <div class="classes_header">
+            <div>
+                <p class="keys">OUR CLASSES</p>
+                <h2>Find the Right Class for You</h2>
+                <p>From strength training to yoga, we offer a variety of classes<br>
+                to match your goals and fitness level.</p>
+            </div>
 
+            <a href="#">View All Classes →</a>
         </div>
 
-        <div class="class_photo">
-            <img src="img/hiit.jpg" alt="hitting">
-            <h3>HITTING</h3>
-            <p>Burn calories, Boost energy</p>
-            
+        <div class="classes_container">
+
+            <div class="class_photo">
+                <img src="img/strength1.jpg" alt="Strength Training">
+                <h3>Strength Training</h3>
+                <p>Build muscle. Gain power.</p>
+                <a href="#">→</a>
+            </div>
+
+            <div class="class_photo">
+                <img src="img/hiit.jpg" alt="hitting">
+                <h3>HIIT</h3>
+                <p>Burn calories. Boost energy.</p>
+                <a href="#">→</a>
+            </div>
+
+            <div class="class_photo">
+                <img src="img/yoga.jpg" alt="Yoga">
+                <h3>Yoga</h3>
+                <p>Improve flexibility. Find balance.</p>
+                <a href="#">→</a>
+            </div>
+
+            <div class="class_photo">
+                <img src="img/cycling1.jpg" alt="Cycling">
+                <h3>Cycling</h3>
+                <p>Ride. Sweat. Feel alive.</p>
+                <a href="#">→</a>
+            </div>
 
         </div>
+    </section>
+    <section class="membership" id="pricing">
 
-        <div class="class_photo">
-            <img src="img/yoga.jpg" alt="yoga class">
-            <h3>Yoga</h3>
-            <p>Improve flexibility, Find balance</p>
-            
+        <p class="section_label">MEMBERSHIP</p>
+        <h2>Choose Your Plan</h2>
+        <p class="membership_text">
+            Flexible plans for every goal. No hidden fees. Just results.
+        </p>
 
-        </div>
+        <div class="pricing_cards">
 
-        <div class="class_photo">
-            <img src="img/cycling1.jpg" alt="strength class">
-            <h3>Cycling</h3>
-            <p>Ride, Sweat, Feel alive</p>
-            
+            <div class="pricing_card">
+                <h3>Basic</h3>
+                <p class="price">$39 <span>/month</span></p>
+
+                <ul>
+                    <li>✓ Gym access</li>
+                    <li>✓ Basic equipment</li>
+                    <li>✓ Locker room</li>
+                </ul>
+
+                <a href="#" class="pricing_button">Get Started</a>
+            </div>
+
+            <div class="pricing_card popular">
+                <span class="popular_label">Most Popular</span>
+                <h3>Premium</h3>
+                <p class="price">$59 <span>/month</span></p>
+
+                <ul>
+                    <li>✓ All basic features</li>
+                    <li>✓ Group classes</li>
+                    <li>✓ Personal trainer (1 session/month)</li>
+                </ul>
+
+                <a href="#" class="pricing_button">Get Started</a>
+            </div>
+
+            <div class="pricing_card">
+                <h3>Elite</h3>
+                <p class="price">$79 <span>/month</span></p>
+
+                <ul>
+                    <li>✓ All Premium features</li>
+                    <li>✓ Unlimited classes</li>
+                    <li>✓ Priority support</li>
+                </ul>
+
+                <a href="#" class="pricing_button">Get Started</a>
+            </div>
 
         </div>
 
     </section>
-    <Section class="membership"></Section>
 </body>
 </html>
